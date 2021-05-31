@@ -1,0 +1,3 @@
+1. A measure of scalability of code is how much slow the code becomes or how many more operations it has to do as the number of inputs to the program/code increases.
+2. O(n) or linear time means with increase in input the number of oeprations increases linearly. n simply means the number of inputs.
+3. 
