@@ -2,4 +2,8 @@
 2. O(n) or linear time means with increase in input the number of oeprations increases linearly. n simply means the number of inputs. This is the omost common big o notation.
 3. O(1) or constant time where in no matter how big or small the inputs get we just to a single operation. For example printing only the first element of an array being looped over.
 4. Big O always cares about the worst case only i.e. if you are trying to find an element in an array the big O must assume that the element is present at the last.
-5. Drp the constants i.e. O(2n) or O(1 + 4n) or O(n/2 + 100) will all translate to O(n) since all the operations will be linear.
+5. Drop the constants i.e. O(2n) or O(1 + 4n) or O(n/2 + 100) will all translate to O(n) since all the operations will be linear.
+6. In case of multiple inputs the big O depends on the number of distinct inputs, so O(a + b) for a function which takes in 2 inputs and uses both of them, 
+   O(a +b +c) for function which takes in 3 inputs and uses all of them in loops or so on. Also if the loops are nested then the big O becomes O(a*b)
+7.O(n^2) is called quadratic time and is applicable in case of nested loops.   
+8.In scenarios where we have a single for loop and a nested for loop the big O will be O(n^2) because we drop the non dominant n i.e. O(n + n^2) will be coverted to O(n^2)
