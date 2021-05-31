@@ -1,0 +1,18 @@
+1.Azure Virtual Network --> Created as a home or container for VMs. A VN is assigned a range of IP addresses. 
+                            Within this range you can create a subnet whose IP range will be within the IP address range of the VN.
+                            Within the subnet you can have resources who inturn can be assigned IPs from the range assigned to the subnet.
+                            These IPs are private IPs and are used for communication within the VN only. 
+                            For exposure to the outside world a public IP needs to be assigned.
+                            For a VM to be added to an existing VN we have to make sure that both share the same region/location.
+2. Application Security Groups --> Used to control traffic within servers hosted in the same group, so we can logically group together DB servers and web servers and handle
+                                   traffic differently.
+3.Vritual Network Peering --> When connecting two virtual networks together we can use virtual network peering. Here we create a private IP address between two VNs
+                              and then the VMs in both VNs can start talking to each other with the help of this private IP
+4.Point to Site VPN Connection --> Use case if when we want to connect a few VMs to a virtual network over the internet. To make this connection more secure
+                                   we can use a VPN gateway which will enable a point to site connection tot he private IP of the virtual network. THis whole handshake happens 
+                                   via certificates. 
+5.Site to Site VPN connection -> USed when an on prem DC needs to connec to the Azure network. The on prem DC needs to have a routing device which has a public IP address.
+                                 The Azure network needs to have a VPN gateway and a local network gateway(which stores public IP of the routing device).
+6.Azure ExpressRoute --> Allows connections to Azure network using dedicated internet line. Special hardware is needed and patners in the region need to be available.                                 
+                                 
+                            
