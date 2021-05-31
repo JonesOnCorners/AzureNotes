@@ -1,3 +1,5 @@
 1. A measure of scalability of code is how much slow the code becomes or how many more operations it has to do as the number of inputs to the program/code increases.
-2. O(n) or linear time means with increase in input the number of oeprations increases linearly. n simply means the number of inputs.
-3. 
+2. O(n) or linear time means with increase in input the number of oeprations increases linearly. n simply means the number of inputs. This is the omost common big o notation.
+3. O(1) or constant time where in no matter how big or small the inputs get we just to a single operation. For example printing only the first element of an array being looped over.
+4. Big O always cares about the worst case only i.e. if you are trying to find an element in an array the big O must assume that the element is present at the last.
+5. Drp the constants i.e. O(2n) or O(1 + 4n) or O(n/2 + 100) will all translate to O(n) since all the operations will be linear.
