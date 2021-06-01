@@ -9,4 +9,9 @@
 8.In scenarios where we have a single for loop and a nested for loop the big O will be O(n^2) because we drop the non dominant n i.e. O(n + n^2) will be coverted to O(n^2)
 9. Space complexity is just how much memory the code consumes.
 10. Time and space complexity have tradeoff i.e. for one you have to sacrifice the other.
-11. 
+
+
+-------------------------
+*****DATA STRUCTURES*****
+-------------------------
+1. 
