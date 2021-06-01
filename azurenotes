@@ -25,9 +25,11 @@ data is stored as VHD or virtual harddisk type files. Blobs have different acces
 the archive tier is lowest pricest. However whilst accessing the data, Hot acces tier is lower priced i.e.to store data in hot tier you have to pay more
 but to access data in hot tier you have to pay less. These costs also depend on the operation i.e. read, write etc.
 
-2. Table Storage --> Store data in table form similar to a relational DB
+2. Table Storage --> Store data in table form similar to a NOSQL DB.
 
-3. File Storage -->. File shares which can be ysed to share files between users or systems. This file sharing uses the SMB protocol
+3. File Storage -->. File shares which can be ysed to share files between users or systems. This file sharing uses the SMB protocol. They are different from te 
+                     Blob storage in a sense that you can directly connect to a fileshare and don't have to use URLS to access each file.
+                     You can also have multiple systems connect to same fileshare. On file share you can also make directories.
 
 4. Queues --> Queues are used for managing communications across systems where one system can write to a message queue and the other system can read from the queue.
 
