@@ -15,4 +15,23 @@
                                  The Azure network needs to have a VPN gateway and a local network gateway(which stores public IP of the routing device).
 6.Azure ExpressRoute --> Allows connections to Azure network using dedicated internet line. Special hardware is needed and patners in the region need to be available.                                 
                                  
-                            
+-----------------------
+AZURE STORAGE ACCOUNTS
+-----------------------
+Storage account name needs to be unique across azure i.e. no two people on earth can use the same name.
+
+1. Blob Storage or containers --> Used to store object like data such as files, videos, images etc. Blob storage is also used as data disks for VMs and in this case the 
+data is stored as VHD or virtual harddisk type files. Blobs have different access tiers Hot, Cool and Archive. For storage only Hot access tier has the highest prices whilst
+the archive tier is lowest pricest. However whilst accessing the data, Hot acces tier is lower priced i.e.to store data in hot tier you have to pay more
+but to access data in hot tier you have to pay less. These costs also depend on the operation i.e. read, write etc.
+
+2. Table Storage --> Store data in table form similar to a relational DB
+
+3. File Storage -->. File shares which can be ysed to share files between users or systems. This file sharing uses the SMB protocol
+
+4. Queues --> Queues are used for managing communications across systems where one system can write to a message queue and the other system can read from the queue.
+
+Redundancy --> Locally redundant means copies of data will be stored on different servers in same DC
+               Zone redundant means copies of data will be stoerd in different DCs in the same region.
+               Geo redundant means copies of data will be stored in different regions.
+
