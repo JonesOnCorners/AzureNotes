@@ -37,3 +37,35 @@ Redundancy --> Locally redundant means copies of data will be stored on differen
                Zone redundant means copies of data will be stoerd in different DCs in the same region.
                Geo redundant means copies of data will be stored in different regions.
 
+-----------------------
+AZURE DATABASES
+-----------------------
+1. Commissioning a DB can be done by spinning up a VM and then installing the DB separately or using PaaS i.e. available DBs as service.
+2. Both approaches have their pros and cons.
+3. Spinning up VM and isntalling DB gives you control over the versions but has overhead of implementing the high availability, scheduling backup and patching of DB.
+4. When using PaaS DB 99.99% availability is ensured. Patching, backup and maintenance are handled by Azure.
+5. Azure SQl Managed INstance --> This is an option when the company moving to cloud already has an SQL Server licenese and simply wants to lift and shift it to cloud. Provides 
+                                   automated backups, patching and maintenance. This can also be added to vrtual network.
+6. Azure MySQL & PostgreSQL --> Fully managed service to create a mysql DB. Pros and cons are same as other managed instances i.e point #5                                   
+
+
+-----------------------
+AZURE DATA WAREHOUSE
+-----------------------
+1. Called Azure Synapse. Will need a Gen2 account
+2. In the synapse workspace you can create sqlpools which are similar to a normal DB but has a lot more different features.Azure data factory is used to copy data from DBs
+to data warehouses.
+
+-----------------------
+AZURE COSMOS DB
+-----------------------
+1. NoSQL DB offering by Azure.
+2. It's fully managed and hence backup, maintenance and patching is handled by Azure.
+3. Various APIs such as SQL API, Table API, MongoDb API, cassandra API and Gremlin APi available to query various types of data.
+
+-----------------------
+AZURE DataBricks
+-----------------------
+1. Based on apache spark and used in BigData and ML to analyse large data sets.
+2. It is fully managed.
+
