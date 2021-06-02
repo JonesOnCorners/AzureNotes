@@ -12,6 +12,9 @@
 
 
 -------------------------
-*****DATA STRUCTURES*****
+ARRAYS
 -------------------------
-1. 
+1. Used to store list like data which are indexed by an integer starting with 0.
+2. append(), pop() or list[index] oeprations take O(1) time.
+3. Operations such as insert(index, element) take O(n) time
+
