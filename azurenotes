@@ -83,5 +83,11 @@ Elascicity
 -----------------------
 1. Elasticity is how fast the system can scale.
 
-
+-----------------------
+Aure Load Balancer
+-----------------------
+1. Backend pool needs to be configured which contains a list of IPs of all VMs.
+2. The backend pool is then attached to the load balancer. The users can they hit IP of load balancer which redirects to a VM.
+3. A heartbeat or healtcheck also needs to be in place to make sure all VMs are healthy.
+4. Load balancer rules also need to be in place to route traffic.
 
