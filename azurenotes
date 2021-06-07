@@ -77,7 +77,6 @@ Scalability
 on traffic or load.
 3. Deploying ap on each VM of the scaleset is responsibility of the developers.
 
-
 -----------------------
 Elascicity 
 -----------------------
@@ -91,4 +90,11 @@ Aure Load Balancer
 3. A heartbeat or healtcheck also needs to be in place to make sure all VMs are healthy.
 4. Load balancer rules also need to be in place to route traffic.
 
-a
+-----------------------
+ARM Templates
+-----------------------
+1. Instead of manually creating resources we can use JSON file to create resources. 
+2. The important contents of the ARM template file are parameters, resources, variables and output.
+3. Resources are just the name of the resource you want to create such as VM, Azure storega account etc. Each resource can be created using different
+API versions available in the microsoft docs. Each API version will have some features different from other API version.
+4. 
