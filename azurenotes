@@ -91,3 +91,4 @@ Aure Load Balancer
 3. A heartbeat or healtcheck also needs to be in place to make sure all VMs are healthy.
 4. Load balancer rules also need to be in place to route traffic.
 
+a
