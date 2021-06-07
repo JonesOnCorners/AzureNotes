@@ -69,3 +69,19 @@ AZURE DataBricks
 1. Based on apache spark and used in BigData and ML to analyse large data sets.
 2. It is fully managed.
 
+-----------------------
+Scalability
+-----------------------
+1. Resources scheduled on Azure can increase in storage, memory etc based on the need of the application. This is how Azure helps us to achieve scalability.
+2. ScaleSet is another good example which the VMs can be a part of and the scaleset wil automatically increase or decrease the number of VMs available based
+on traffic or load.
+3. Deploying ap on each VM of the scaleset is responsibility of the developers.
+
+
+-----------------------
+Elascicity 
+-----------------------
+1. Elasticity is how fast the system can scale.
+
+
+
