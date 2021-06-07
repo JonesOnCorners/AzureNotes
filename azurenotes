@@ -89,6 +89,7 @@ Aure Load Balancer
 2. The backend pool is then attached to the load balancer. The users can they hit IP of load balancer which redirects to a VM.
 3. A heartbeat or healtcheck also needs to be in place to make sure all VMs are healthy.
 4. Load balancer rules also need to be in place to route traffic.
+5. This is also a local resoruce, hence it can only route traffic in the particular region in which the load balancer was created.
 
 -----------------------
 ARM Templates
@@ -97,4 +98,19 @@ ARM Templates
 2. The important contents of the ARM template file are parameters, resources, variables and output.
 3. Resources are just the name of the resource you want to create such as VM, Azure storega account etc. Each resource can be created using different
 API versions available in the microsoft docs. Each API version will have some features different from other API version.
-4. 
+4. Parameters are used to supply certain values that we can choose whislt creating the resources. For example, types of redundancy can by supplied as parameter and then whilst 
+creating the resource AZure will ask you to select which type of redundancy you want.
+
+-----------------------
+Azure Traffic Manager
+-----------------------
+1. DNS based routing service provided by Azure.
+2. Can route traffic globally based on DNS to either Azure or even on prem systems.
+3. Routing can be priority based or weightage based.
+
+
+-----------------------
+Azure Serverless Services
+-----------------------
+1. All underlying infra managed by Azure and we can just run code.
+2. Azure functions are an example of serverless ervices. An advantage of this is that you are only billed for the duration the function runs.
