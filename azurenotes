@@ -148,7 +148,7 @@ Azure Devops
 -----------------------
 Azure DevTestLabs
 -----------------------
-1. Preconfigured set bases or Azure Resource manager template based machines which are created and handed over to developers.
+1. Preconfigured set bases(base OS) or Azure Resource manager template based machines which are created and handed over to developers.
 2. Help in faster creation of VMs.
 3. Can be used to cost and time control.Auto shutdown and autostart policies can be put in place.
 4. Size of VMs can also be configured
