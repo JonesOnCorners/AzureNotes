@@ -114,3 +114,41 @@ Azure Serverless Services
 -----------------------
 1. All underlying infra managed by Azure and we can just run code.
 2. Azure functions are an example of serverless ervices. An advantage of this is that you are only billed for the duration the function runs.
+
+-----------------------
+Aure Advisor 
+-----------------------
+1. Provides recommendations based on cost, security, high availability, etc. 
+
+-----------------------
+Application Insight 
+-----------------------
+1. Monitor web apps
+2. Detect anomalies in the application.
+3. Diagnose issues.
+4. Can also help understand user behaviour of the application.
+5. Can also help improve performance and usability.
+6. Works by installing an SDK.
+7. Some of the metrics recorded are request rates, resposne times, failure rates, page views and their load time, user and session counts, performance
+counter of underlying VMs
+8.***FUNNELS --> Create funnel from one stage of app to another to understand how users are progressing through different stages of the funnel
+9.***User Flows --> Helps visualize how users navigate the app. Helps understand user behaviour such as page clicks, where the clicks happen, which page users spend most time, etc.
+10.***IMpact --> Helps decide if page is having an impact on user i.e. load time is affecting user behavior
+11.***Retention --> Helps understand how many people return to the application
+
+
+-----------------------
+Azure Devops
+-----------------------
+1. Azure boards is similar tot JIRA
+2. Azure Repos is similar to Github
+3. Azure pipelines is similar to Ci/CD available in Gitlab
+4. Azure releases is similar to release pipeline
+
+-----------------------
+Azure DevTestLabs
+-----------------------
+1. Preconfigured set bases or Azure Resource manager template based machines which are created and handed over to developers.
+2. Help in faster creation of VMs.
+3. Can be used to cost and time control.Auto shutdown and autostart policies can be put in place.
+4. Size of VMs can also be configured
