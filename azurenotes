@@ -172,3 +172,26 @@ Management Groups
 1. These are one level above subscription groups.
 2. A good use case if if yo u wants to have different departments within your org under different subscriptions you can club these departments into management groups.
 3. Each subscription group can then have different resources groups and so on.
+
+----------------------------------------------
+Azure Resource locks
+----------------------------------------------
+1. CAn be applied at resource, resource group or subscription level.
+2. ***CannotDelete --> Allowed to modify and read resource but not delete.
+3. ***ReadOnly --> Read only, no delete or modify.
+
+----------------------------------------------
+Azure Security Center & Azure Sentinel
+----------------------------------------------
+1. Inbuilt service that assess the deployed resources and provides some suggestions to make the security better.
+2. Azure Sentinel does more than just monitoring, it assess logs and information from vaiour sources both cloud and onprem and provides insight into 
+application security.
+
+----------------------------------------------
+Azure Blueprints
+----------------------------------------------
+1. Deploy resources based on Azure Resource Manage Templates, policies, resources groups and role based access.
+2. Blueprint can obly be defined at management group or subscription level, it cannot be defined at resource group level.
+3. The use of blueprint is when large organizations require certain management groups to have same architecture. In this case you 
+can create a blueprint template and apply to that management group. From this amnagement group you can then choose which resource group to apply it to.
+4. ***TENANT ROOT GORUP is the default manangemenet group.
