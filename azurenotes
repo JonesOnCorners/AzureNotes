@@ -251,3 +251,9 @@ Azure Support Plans
 1. Basic is useless
 2. Developer plan comes wiht some support via email
 3. STANDARD and PROFRESSIONAL direct have 24x7 support via email and phone. They also have support for critical incidents where response time is 1 hour.
+
+----------------------------------------------
+Azure Budget
+----------------------------------------------
+1. Set budget for resource group or susbcription
+2. When the current spend exceeds a certain threshold an alert is triggered via email or SMS or you can take other actions.
