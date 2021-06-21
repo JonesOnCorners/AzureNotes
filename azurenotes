@@ -244,3 +244,10 @@ Costing
 5. Data transfer between services locateed in same region but not part of availability zone is free
 6. Inbound data transfer between services located in different regions is also fee.
 6. Outbound data tansfer between services located in different regions is charged.
+
+----------------------------------------------
+Azure Support Plans
+----------------------------------------------
+1. Basic is useless
+2. Developer plan comes wiht some support via email
+3. STANDARD and PROFRESSIONAL direct have 24x7 support via email and phone. They also have support for critical incidents where response time is 1 hour.
