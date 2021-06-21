@@ -172,6 +172,7 @@ Management Groups
 1. These are one level above subscription groups.
 2. A good use case if if yo u wants to have different departments within your org under different subscriptions you can club these departments into management groups.
 3. Each subscription group can then have different resources groups and so on.
+4. ***TENANT ROOT GORUP is the default manangemenet group.
 
 ----------------------------------------------
 Azure Resource locks
@@ -194,4 +195,31 @@ Azure Blueprints
 2. Blueprint can obly be defined at management group or subscription level, it cannot be defined at resource group level.
 3. The use of blueprint is when large organizations require certain management groups to have same architecture. In this case you 
 can create a blueprint template and apply to that management group. From this amnagement group you can then choose which resource group to apply it to.
-4. ***TENANT ROOT GORUP is the default manangemenet group.
+Stages of BLUEPRINT are
+ a) Definition -> define the blueprint. To save the blueprint you need contributor access.
+ b) Publishing -> Publish the blueprint, a blueprint can have different versions
+ c) Assign -> Assign blueprint to subscription.
+ 4. Blueprint can also have locks.
+ 
+ ----------------------------------------------
+Other security aspects
+----------------------------------------------
+ 1. GDPR --> applies to people living in EU and tells us that data needs to be collected legally
+ 2. ISO --> International Standards Organization 
+ 3. NIST --> US organization which monitors science, technology and innovation.
+ 4. Azure service trust portal has various audit reports.
+ 
+1. GDPR (General Data Protection Regulation)
+This is a set of rules that helps EU citizens have more control over their personal data
+Under this compliance schema, organizations have to ensure that personal data is gathered legally and under strict conditions.
+Also organizations have to manage the data in such a way that it is protected from misuse or exploitation.
+
+2. ISO (International Organization for Standardization)
+This is an international body that is responsible for setting international standards.
+This is an independent, non-government organization.
+It consists of members from around 160+ member countries.
+
+3. NIST (National Institute of Standards and Technology)
+This is an organization which looks at U.S. innovation.
+They do this by looking at measurement of science, standards and technology.
+ 
