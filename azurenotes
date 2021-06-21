@@ -223,3 +223,24 @@ It consists of members from around 160+ member countries.
 This is an organization which looks at U.S. innovation.
 They do this by looking at measurement of science, standards and technology.
  
+----------------------------------------------
+Azure Updates
+----------------------------------------------
+1. Contains information baout latest offerings from Azure.
+2. Services can either be generally available or in previews.
+3. Peview is also divided into two types, public preview and private preview.
+4. Public preview is services that are available for anyone to try out
+5. Private preview are services where you need to contact microsoft to try them out
+6. Preview services have NO SLA
+7. Don't use in PROD.
+
+----------------------------------------------
+Costing
+----------------------------------------------
+1. Storage is charged based on volumn, number of operations and redundancy
+2. Inbound data transfer into Azure is free
+3. Outbound data tansfer from Azure is charged
+4. Inbound and Outbound data transfer from Azure for virtual machines hosted in anavailability zone is charged.
+5. Data transfer between services locateed in same region but not part of availability zone is free
+6. Inbound data transfer between services located in different regions is also fee.
+6. Outbound data tansfer between services located in different regions is charged.
