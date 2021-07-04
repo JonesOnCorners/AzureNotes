@@ -119,6 +119,15 @@ Azure Serverless Services
 Aure Advisor 
 -----------------------
 1. Provides recommendations based on cost, security, high availability, etc. 
+2. Mainly deals with cost optimization.
+
+----------------------------------------------
+Azure Monitor
+----------------------------------------------
+1. Allows you to take action on Azure or on prem servers based on metrics and logging data.
+2. Sends alerts and notifications about critical events.
+3. Can be used to schedule auto scaling based on thresholds.
+
 
 -----------------------
 Application Insight 
@@ -257,3 +266,76 @@ Azure Budget
 ----------------------------------------------
 1. Set budget for resource group or susbcription
 2. When the current spend exceeds a certain threshold an alert is triggered via email or SMS or you can take other actions.
+
+----------------------------------------------
+VM ScaleSets
+----------------------------------------------
+1. Provide ability to add preconfigured VMs of similar config based on demand.
+2. Configuration of VMs can be manual, automated or a combination of both.
+
+----------------------------------------------
+Azure Batch
+----------------------------------------------
+1. Enables large scale parallel and high performance computing (HPC).
+2. Can automatically create hunderds of VMs to run a job, install software and staging data, run the batch and also reque any failed workloads.
+3. Once the batch is run it scales down the VM pool.
+
+----------------------------------------------
+Azure App Service
+----------------------------------------------
+1. PaaS soltuion to host web apps, mobile backends, RESTAPIs.
+2. Provides auto scaling and High Availability(HA).
+3. You pay for the hosting i.e. compute resoures that are used by the app. The pricing is based on the plan we choose.
+
+----------------------------------------------
+IoT HUB
+----------------------------------------------
+1. Bidirectional communication between IoT app and IoT device.
+
+----------------------------------------------
+IoT Central
+----------------------------------------------
+1. SaaS servie of Azure IoT.
+2. Provides out of the box solutions/templates for various common IoT use cases.
+3. The devices then send back data based on the template used which can be rendered on the IoT central UI.
+4. UI can be used to remotely monitor and configure devices and also update new software patches into the device.
+5. Reports also can be viewed on UI dashboard.
+6. Can also set up alerts dor device failures etc.
+7. Tis is built on top of IoT hb and the only difference is that lot of configuration is already done based on some 
+industry specific templates.
+
+----------------------------------------------
+Azure Sphere
+----------------------------------------------
+1. Super secure IoT service of Azure where even the IoT device is provided by Azure.
+2. This helps to ensure that the IoT device has not been tampered with.
+3. The OS on the device is a linux one.
+5. AS2 or Azure Sphere Security Service is used to ensure device security.
+
+----------------------------------------------
+Azure Service Health
+----------------------------------------------
+1. Tells us the overall health of azure services both global and local that impact our app or solution hosted in Azure.
+2. Can be used to schedule alerts in advance for planned maintenances and outages so that they can be effectively tacked.
+3. Also provides RCA in case of outages.
+
+----------------------------------------------
+Azure Security Center
+----------------------------------------------
+1.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
