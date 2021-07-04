@@ -343,12 +343,31 @@ Azure Sentinel
 malicious IP, log a ticket to a ticketing system in response to certain security issues. Send security alert to support team.
 Send email or message to admin with block and ignore buttons to take appropriate actions.
 
+----------------------------------------------
+Microsoft Privacy Statement
+----------------------------------------------
+1. Explains what personal data Microsoft collects, how Microsoft uses it, and for what purposes.
+2. The privacy statement covers all of Microsoft's services, websites, apps, software, servers, and devices. 
+This list ranges  from enterprise and server products to devices that you use in your home to software that students 
+use at school.
+
+----------------------------------------------
+Online Serivice Terms
+----------------------------------------------
+1. Is a legal agreement between Microsoft and the customer. 
+2. The OST details the obligations by both parties with respect to the processing and security of customer data 
+and personal data. 
+3. The OST applies specifically to Microsoft's online services that you license through a subscription, 
+including Azure, Dynamics 365, Office 365, and Bing Map
 
 
-
-
-
-
+----------------------------------------------
+Data Protection Adendum
+----------------------------------------------
+1. Compliance with laws.
+2. Dislosure of processed data.
+3. Dataecurity, which includes security practices and policies, data encryption, data access, customer responsibilities, and compliance with auditing.
+4. Data transfer, retention, and deletion.
 
 
 
